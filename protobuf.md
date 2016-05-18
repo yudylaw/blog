@@ -6,7 +6,7 @@ PB对象的 string 字段 toString() 时，会用UTF8编码, 再转成3bit的８
 
 有时候日志中仅有编码后的一串数字,需要解码后才能显示原文
 
-# com.google.protobuf.TextFormat 提供了私有的 unescapeText 方法
+## com.google.protobuf.TextFormat 提供了私有的 unescapeText 方法
 
 抽取 unescapeText, 可以实现一个解码方法
 
