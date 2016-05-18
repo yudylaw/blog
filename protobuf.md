@@ -18,7 +18,7 @@ com.google.protobuf.TextFormat 提供了私有的 unescapeText 方法
 
 ## example
 
-```
+```java
     public static void main(String[] args) {
         String str;
         try {
