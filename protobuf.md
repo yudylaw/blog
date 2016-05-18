@@ -13,3 +13,17 @@ PB对象的 string 字段 toString() 时，会用UTF8编码, 再转成3位的８
 例如：unescapeText("\\345\\260\\217\\351\\273\\204\\347\\223\\234")
 
 得到: "小黄瓜"
+
+## example
+
+```
+    public static void main(String[] args) {
+        String str;
+        try {
+            str = unescapeText("\\345\\260\\217\\351\\273\\204\\347\\223\\234");
+            System.out.println(str);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+```
